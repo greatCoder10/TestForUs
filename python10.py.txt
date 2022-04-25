@@ -1,0 +1,11 @@
+counter = 0
+total = 0
+while not counter >= 5:
+  strVar1 = input('Enter mark')
+  var1 = int(strVar1)
+  total = total + var1
+  counter = counter + 1
+print('Total marks = ')
+print(total)
+print('Average mark = ')
+print(total/5)
